@@ -12,7 +12,7 @@ function onOpen(): void {
     if (!ITEMS_LIST) {
         errors += 'Не удалось получить доступ к листу "Актуальные". Проверьте имя листа.\n'
     }
-    if (errors.length > 0) {
+    if (errors.length > 5) {
         showAlert(errors.substring(0 , errors.length - 1));
     }
 }

@@ -4,8 +4,9 @@
     "lib": ["esnext"],
     "module": "commonjs",
     "experimentalDecorators": true,
-    "removeComments": true,
+    "removeComments": false,
     "types": ["google-apps-script"],
-    "strict": true
+    "strict": true,
+    "noImplicitUseStrict": true
   }
 }
