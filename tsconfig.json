@@ -7,6 +7,5 @@
     "removeComments": false,
     "types": ["google-apps-script"],
     "strict": true,
-    "noImplicitUseStrict": true
   }
 }
