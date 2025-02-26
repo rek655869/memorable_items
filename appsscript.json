@@ -1,0 +1,20 @@
+{
+  "timeZone": "Europe/Moscow",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "CatWar",
+        "version": "0",
+        "libraryId": "1XMU_J1jLON6adWeIcegYQ9hxcsqC8KWRTGDgsf0Yea4Zh7AUHaWvcOLJ",
+        "developmentMode": false
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.container.ui",
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "runtimeVersion": "V8"
+}
